@@ -21,7 +21,9 @@ jobs:
           cd src
           npm install
       - name: start application
-        run: npm start
+        run: |
+          cd src
+          npm start
       - name: Project Completed
         run: echo "You are doing a good job" 
           
