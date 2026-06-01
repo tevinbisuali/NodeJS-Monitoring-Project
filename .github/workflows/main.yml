@@ -14,9 +14,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Moving inside folder
-        run: |
-          cd src/
+      - name: Show folders
+        run: ls 
       - name: Install depencies
         run: npm install
       - name: Run Tests
