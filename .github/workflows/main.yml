@@ -23,7 +23,8 @@ jobs:
       - name: start application
         run: |
           cd src
-          npm start
+          npm start &
+          sleep 10
       - name: Project Completed
         run: echo "You are doing a good job" 
           
