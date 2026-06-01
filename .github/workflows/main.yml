@@ -21,7 +21,7 @@ jobs:
           cd src
           npm install
       - name: Run Tests
-        run: npm Test
+        run: npm test
       - name: start application
         run: npm start
       - name: Project Completed
