@@ -17,8 +17,9 @@ jobs:
       - name: Show folders
         run: ls 
       - name: Install dependencies
-        run: cd src
-        run: npm install
+        run: |
+          cd src
+          npm install
       - name: Run Tests
         run: npm Test
       - name: start application
