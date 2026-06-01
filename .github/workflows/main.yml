@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd src
-          npm install
+          npm install &
           sleep 15
       - name: Run Tests
         run: |
