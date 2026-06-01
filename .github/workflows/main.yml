@@ -16,7 +16,8 @@ jobs:
           node-version: 20
       - name: Show folders
         run: ls 
-      - name: Install depencies
+      - name: Install dependencies
+        run: cd src
         run: npm install
       - name: Run Tests
         run: npm Test
